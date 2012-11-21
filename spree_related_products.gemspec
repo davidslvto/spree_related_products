@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = true
 
-  # Modified version to work with spree 1.1.3
-  s.add_dependency 'spree_core', '~> 1.1.3'
-  s.add_dependency 'spree_promo', '~> 1.1.3'
+  # Modified version to work with spree 1.2.2
+  s.add_dependency 'spree_core', '~> 1.2.2'
+  s.add_dependency 'spree_promo', '~> 1.2.2'
 
   s.add_development_dependency 'factory_girl', '2.6.4'
   s.add_development_dependency 'rspec-rails',  '~> 2.9.0'
